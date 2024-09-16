@@ -1,0 +1,4 @@
+
+# Añade las fuentes
+add_executable(AravisTest test_ArvGc.cpp test_ArvGcNode.cpp test_ArvGcIndexNode.cpp test_ArvGcValueIndexedNode.cpp)
+add_library(aravis_wrapper ArvGc.cpp ArvGcNode.cpp ArvGcIndexNode.cpp ArvGcValueIndexedNode.cpp)
